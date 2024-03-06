@@ -1,0 +1,43 @@
+nav{
+  height: 106px;
+  background-color: #EBFDF8;
+  display: flex;
+  justify-content: space-between;
+}
+nav img{
+  margin: 15px;
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+nav ul li a{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  display: inline-block;
+  margin: 30px 15px;
+  width: 150px;
+  text-align: center;
+  color: #5C9D8B;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  font-weight: 800;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  display: block;
+}
