@@ -37,18 +37,12 @@
               <div class="flip-box-front">
                 <img src="@/assets/images/Adobe%20Photoshop.png" alt="ps">
               </div>
-              <div class="flip-box-back">
-                <h2>70%</h2>
-              </div>
             </div>
           </div>
           <div class="flip-box">
             <div class="flip-box-inner">
               <div class="flip-box-front">
                 <img src="@/assets/images/Adobe%20Illustrator.png" alt="ai">
-              </div>
-              <div class="flip-box-back">
-                <h2>70%</h2>
               </div>
             </div>
           </div>
@@ -63,18 +57,12 @@
               <div class="flip-box-front">
                 <img src="@/assets/images/Adobe%20XD.png" alt="xd">
               </div>
-              <div class="flip-box-back">
-                <h2>60%</h2>
-              </div>
             </div>
           </div>
           <div class="flip-box">
             <div class="flip-box-inner">
               <div class="flip-box-front">
                 <img class="code" src="@/assets/images/figma.png" alt="figma">
-              </div>
-              <div class="flip-box-back">
-                <h2>65%</h2>
               </div>
             </div>
           </div>
