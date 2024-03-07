@@ -5,7 +5,7 @@
       </li>
       <li><a href="mailto:peetersthomas550@gmail.com"><i class="fa-regular fa-envelope"></i></a>peetersthomas550@gmail.com
       </li>
-      <li><a href="#"><i class="fa-solid fa-mobile-screen"></i></a>0476664829</li>
+      <li><a href="#"><i class="fa-solid fa-mobile-screen"></i></a>0476 66 49 28</li>
     </ul>
   </footer>
 

@@ -90,51 +90,63 @@
       </section>
     </section>
     <section class="hard_skills">
-    <section class="vakken">
-      <h1>Web essentials & advanced -- 2022-2023</h1>
-<!--      <p>Dit portfolio is gemaakt door mezelf, ik heb gebruik gemaakt van html, css en javascript.</p>-->
-      <button class="creatie"><a href="https://github.com/thomaspeeterspxl/portfolio-semester2.git" target="_blank">Github</a>
-      </button>
-      <!--        <p><a href="webshop/index.html">wp2</a></p>-->
-      <article class="boxes">
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img class="code" src="@/assets/images/html.png" alt="html">
+      <section class="vakken">
+        <h1>Web essentials & advanced -- 2022-2023</h1>
+        <!--      <p>Dit portfolio is gemaakt door mezelf, ik heb gebruik gemaakt van html, css en javascript.</p>-->
+        <button class="creatie"><a href="https://github.com/thomaspeeterspxl/portfolio-semester2.git" target="_blank">Github</a>
+        </button>
+                <p><a href="http://localhost:5174/">wp2</a></p>
+        <article class="boxes">
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img class="code" src="@/assets/images/html.png" alt="html">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img class="code" src="@/assets/images/css.png" alt="css">
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img class="code" src="@/assets/images/css.png" alt="css">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img class="code" src="@/assets/images/js.png" alt="js">
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img class="code" src="@/assets/images/js.png" alt="js">
+              </div>
             </div>
           </div>
-        </div>
-      </article>
-    </section>
-    <section class="vakken">
-      <h1>Web expert -- 2023-2024</h1>
-      <button class="creatie"><a href="#" target="_self">Creaties</a></button>
-      <article class="boxes">
-            <div class="box">
-              <img class="code" src="@/assets/images/sass_logo.png" alt="sass">
+        </article>
+      </section>
+      <section class="vakken">
+        <h1>Web expert -- 2023-2024</h1>
+        <button class="creatie"><a href="#" target="_self">Creaties</a></button>
+        <article class="boxes">
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img class="code" src="@/assets/images/sass_logo.png" alt="sass">
+              </div>
             </div>
-            <div class="box">
-              <img class="code" src="@/assets/images/vue_logo.png" alt="vue">
+          </div>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img class="code" src="@/assets/images/vue_logo.png" alt="vue">
+              </div>
             </div>
-            <div class="box">
-              <img class="code" src="@/assets/images/Wordpress.png" alt="vue">
+          </div>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img class="code" src="@/assets/images/Wordpress.png" alt="vue">
+              </div>
             </div>
-      </article>
-    </section>
+          </div>
+        </article>
+      </section>
     </section>
   </main>
 </template>
@@ -246,19 +258,19 @@ main button a:visited {
 /*    transform: rotateX(180deg);*/
 /*}*/
 
-/*.flip-box-front, .flip-box-back {*/
-/*  position: absolute;*/
-/*  width: 100%;*/
-/*  height: 100%;*/
-/*  backface-visibility: hidden;*/
-/*  border-radius: 50px;*/
-/*  border: #545479 solid 2px;*/
-/*}*/
+.flip-box-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 50px;
+  border: #545479 solid 2px;
+}
 
-/*.flip-box-front {*/
-/*  background-color: #EBFDF8;*/
-/*  color: black;*/
-/*}*/
+.flip-box-front {
+  background-color: #EBFDF8;
+  color: black;
+}
 
 /*.flip-box-back {*/
 /*  background-color: #545479;*/
@@ -267,7 +279,7 @@ main button a:visited {
 /*  margin: 0 auto;*/
 /*}*/
 
-.vakken{
- margin-right: 150px;
+.vakken {
+  margin-right: 150px;
 }
 </style>
